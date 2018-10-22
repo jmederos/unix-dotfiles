@@ -16,6 +16,9 @@ cp -a ~/.tmux.conf ./$OUTPUT_FOLDER/tmux/.tmux.conf
 # Copy install script
 cp ./install.sh ./$OUTPUT_FOLDER/
 
+# Copy package install script
+cp ./packages.sh ./$OUTPUT_FOLDER/
+
 # zip folder and remove tmp
 zip -r $OUTPUT_FOLDER.zip $OUTPUT_FOLDER
 rm -rf ./$OUTPUT_FOLDER
