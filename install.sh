@@ -8,7 +8,7 @@ cp -rf ./vim/ ~/
 cp -rf ./tmux ~/
 
 # la alias
-echo "la='ls -hal'" >> ~/.bashrc
+echo "alias la='ls -hal'" >> ~/.bashrc
 
 # packages
 ./packages.sh
